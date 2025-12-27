@@ -6,8 +6,20 @@
     <title>todo list</title>
 </head>
 <body>
-    <h1>나의 todo list</h1>
-    <input type="text" id="todo-priority" placeholder="할 일의 우선순위">
+    <h1>todo list</h1>
+
+    할 일의 우선 순위
+    <label>
+        <input type="radio" name="priority" value="긴급">긴급
+    </label>
+    <label>
+        <input type="radio" name="priority" value="보통">보통
+    </label>
+    <label>
+        <input type="radio" name="priority" value="여유">여유
+    </label>
+
+    <!-- <input type="text" id="todo-priority" placeholder="할 일의 우선순위"> -->
     <input type="text" id="todo-title" placeholder="할 일 제목을 입력하세요">
     <input type="text" id="todo-content" placeholder="할 일 내용을 입력하세요">
     <button id="add-btn">추가</button>
